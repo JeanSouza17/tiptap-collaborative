@@ -1,1 +1,1 @@
-# tiptap-collaborative
+# Vue 3 + TypeScript + Vite
