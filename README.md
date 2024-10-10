@@ -20,8 +20,9 @@ TODO...
 - [-] Setup project
   - [x] Initialize repo
   - [x] Install dependencies (Vue, Tiptap, nats.js)
-  - [ ] Create NATS Docker Compose file
-  - [ ] Setup NATS stream
+  - [x] Create NATS Docker Compose file
+  - [x] Setup NATS stream
+  - [ ] Setup NATS JWT Auth
 - [ ] Frontend
   - [ ] Design a simple interface =D
   - [ ] Create individual streams

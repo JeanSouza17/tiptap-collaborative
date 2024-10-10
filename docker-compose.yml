@@ -1,0 +1,13 @@
+services:
+  nats:
+    image: nats:latest
+    container_name: nats
+    ports:
+      - "4222:4222" # Default NATS port
+      - "5222:5222" # Custom port for WS
+      - "6222:6222" # Default port to connect to leaf nodes, ...
+      - "8222:8222" # Default NATS Monitor port
+    volumes:
+      - ./nats-jetstream:/data/jetstream
+      - ./server.conf:/etc/nats/server.conf
+    command: ["-c", "/etc/nats/server.conf"]
