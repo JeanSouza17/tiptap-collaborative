@@ -19,7 +19,7 @@ TODO...
 
 - [-] Setup project
   - [x] Initialize repo
-  - [-] Install dependencies (Vue, Tiptap, nats.js)
+  - [x] Install dependencies (Vue, Tiptap, nats.js)
   - [ ] Create NATS Docker Compose file
   - [ ] Setup NATS stream
 - [ ] Frontend
